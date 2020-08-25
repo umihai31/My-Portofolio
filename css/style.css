@@ -1,0 +1,166 @@
+body{
+    color:#40514E;
+    font-family: 'Merriweather', serif;
+    
+    margin:0px;
+    padding:0px;
+    text-align: center;
+}
+
+h1{
+    color:#66BFBF;
+    font-size: 5.625rem;
+    font-family: 'Sacramento', cursive;
+    line-height: 2;
+    margin:50px auto 0 auto;
+}
+
+h2 {
+    color:#66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size:2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3{
+    color:#11999E;
+    font-family: 'Montserrat', sans-serif;
+    font-size:1.3rem;
+    padding-top:20px
+}
+
+a{
+    color:#020202;
+    font-family: 'Montserrat', sans-serif;
+    margin:10px 20px;
+    text-decoration:none;
+}
+
+a:hover{
+    color:#eaf6f6;
+    font-weight: bold;
+}
+
+p{
+    line-height: 2;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+hr{
+    border:dotted #EAF6F6 6px;
+    border-bottom:none;
+    width:4%;
+    margin:70px auto;
+}
+/**************CLASSES***********/
+
+/**************Top Container***********/
+
+.top-container{
+    background-color:#EAF6F6;
+    position: relative;
+    padding-top:100px;
+}
+
+.top-cloud{
+    position: absolute;
+    right:650px;
+    top:40px;
+}
+
+.about-me{
+    font-weight: bold;
+}
+
+.pro{
+    text-decoration:underline;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left:450px;
+    bottom:300px;
+}
+/**************Middle Container***********/
+
+.middle-container{
+    margin:100px 0;
+}
+
+.my-img{
+    width: 300px;
+}
+
+.my-descr{
+    width:30%;
+    margin:auto;
+}
+
+.skill-row{
+    width: 50%;
+    margin:150px auto 100px auto;
+    text-align: left;
+    
+}
+
+.engineer-img{
+    width:25%;
+    float:left;
+    margin-right: 30px;
+}
+
+.code-img{
+    width: 25%;
+    float: right;
+    margin-left:30px;
+}
+
+
+.contact-msg{
+    width:40%;
+    margin:40px auto 60px;
+}
+
+.btn {
+	background:linear-gradient(to bottom, #11cdd4 5%, #11999e 100%);
+	background-color:#11cdd4;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Montserrat', sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	padding:15px 22px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #30e3cb 5%, #2bc4ad 100%);
+	background-color:#11999e;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+/**************Bottom Container***********/
+
+.bottom-container{
+    height:auto;
+    background-color: #66BFBF;
+    margin-bottom: 0;
+    width: 100%;
+    padding:50px 0 20px;
+}
+
+.footer-link{
+    color:#11999E;
+}
+
+.copyright-foot{
+    color:#EAF6F6;
+    padding:0;
+}
